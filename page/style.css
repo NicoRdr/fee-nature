@@ -1,0 +1,75 @@
+/* Police d'écriture */
+@font-face
+{
+	font-family: "BLACKR-webfont";
+		src: url("../police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");
+}
+
+/*éléments principaux du site web*/
+body
+{
+	background: url("../img/fond1.jpg") no-repeat fixed ;
+	background-size:cover;
+	font-family: BLACKR-webfont,arial,"The New Roman";
+	color:black;
+	font-size: 150%;
+	float: right;
+	position:right;
+}
+a:hover
+{
+	color: red;
+	font-family: BLACKR-webfont, Arial,serif;
+}
+
+ul
+{
+	padding: 10px;
+	background: rgba(223,100,178,0.2);
+	text-align:center;
+	margin: 10px;
+}
+li{
+	display:inline;
+	padding: 0px 10px 0px 10px;
+	margin: auto;
+}
+
+/*navigation*/
+nav 
+{
+	text-align:center;
+	display:;
+	padding: 0px;
+	margin:0px;
+}
+
+
+/*coprs*/
+
+
+/*footer*/
+footer
+{
+	margin: 10px;
+	padding:10px;
+	background: rgba(223,100,178,0.2);
+	text-align:center;
+}
+
+.lien
+{
+	padding: 0px;
+	color: rgb(223,0,220);
+	margin:0px;
+}
+
+.contact
+{
+	padding:15px;
+	top:50px;
+	margin: 0px;
+	color: rgb(223,0,220);
+}
+
+
