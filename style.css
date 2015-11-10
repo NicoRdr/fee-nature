@@ -1,8 +1,8 @@
 /* Police d'écriture */
 @font-face
 {
-	font-family: "BLACKR-webfont";
-		src: url("police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");
+	/*font-family: "BLACKR-webfont";
+		src: url("police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");*/
 }
 
 /*hearder Baniére*/
@@ -59,7 +59,9 @@ nav
 /*coprs*/
 .new
 {
-	margin: 5px;
+	/*margin: 5px;*/
+	margin-left: 150px;
+	margin-right: 150px;
 	padding:5px;
 	border: 3px solid black;
 	border-radius: 20px 20px 5px 5px;
@@ -67,10 +69,13 @@ nav
 	
 }
 
-.photo
+.evem
 {
 	border: 3px solid black;
 	border-radius: 20px 20px 5px 5px;
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-right: 150px;
 	
 }
 
