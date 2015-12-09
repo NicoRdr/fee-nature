@@ -2,18 +2,15 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" href="../asserts/stylesheet/bio.css"/>
+		<link rel="stylesheet" href="../asserts/stylesheet/contact.css"/>
 		<title>Fée-Nature</title>
 	</head>
 
 	</head>
 
-	<body>
-		<div>
-<div>
-		
-			<header>
-							
+<body>
+	<div>
+		<header>
 				<!-- barre de menu -->
 				<nav>
 					 	<ul>
@@ -23,25 +20,45 @@
 								<li><a href="contact.html" class="">Contact</a></li>
 						</ul>
 				</nav>
-			</header>
+		</header>
 				
 				<article>
 				<h1>Fee-Nature</h1>
 				<p>Vous pouvez me contacter par mail pour plus d'information ou pour une commande</p>
-				<input type="name" placeholder="Votre Nom/Prénom"/>
+				<!-- <input type="name" placeholder="Votre Nom/Prénom"/>
 				<input type="email" placeholder="Votre Mail"/>
 				<input type="submit" placeholder="Entre"/>
-				</article>
-			</section>
-	  </div>
-</body>
+				</article> -->
+				
+			<div class="content"><!--Content formulaire-->
+      <div id="form"><!--from-->
+              <form action="" id="contactForm" method="post">
+                 
+                  <span class="list" id="lisname" >Name</span>
+                  <input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+                
+                  <span class="lisname">Email</span>
+                  <input type="email" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+                
+                  <span class="lisname">Web</span>
+                  <input type="text" name="web" class="email" placeholder="Enter your Url" tabindex=2         
+                  pattern="^http:\/\/'.*)$" />
+
+                  <span class="list">Message</span>
+                  <textarea class="message" placeholder="Enter your message" tabindex=4></textarea> </br>
+								
+                  <input type="submit" name="submit" value="Send e-mail" class="submit" tabindex=5>
+              </form>
+      </div><!-- fin de from-->        
+      </div><!-- fin content formulaire-->
+  </div>
 
 <footer>
 	<div>
-		<a href="lien.html" class="lien">lien</a></li> 
+		<!-- <a href="lien.html" class="lien">lien</a></li>  -->
 		© Copyright 2015
 		create Nicolas Rodrigues
   </div>
-</footer>	
-
+</footer>
+</body>
 </html>

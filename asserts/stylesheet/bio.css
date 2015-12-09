@@ -29,11 +29,13 @@ a:hover
 ul
 {
 	padding: 10px;
-	background: rgba(223,100,178,0.2);
+	background: rgba(125, 71, 22, 0.7);
 	text-align:center;
 	margin: 10px;
 }
-li{
+
+li
+{
 	display:inline;
 	padding: 0px 10px 0px 10px;
 	margin: auto;
@@ -47,14 +49,35 @@ nav
 	padding: 0px;
 	margin:0px;
 }
+
+/*.contact
+{
+	padding:15px;
+	top:50px;
+	margin: 0px;
+	color: rgb(223,0,220);
+}*/
+
 /*coprs et texte
 ****************/
 
 p , h1
 {
-	margin-left: 150px;
-	
+	margin-left: 150px;	
 }
+
+.present
+{
+	border-bottom: solid 2px rgba(125, 71, 22, 0.7);
+	margin-right: 1070px;
+}
+
+.trait
+{
+	border-bottom: solid 2px rgba(125, 71, 22, 0.7);
+	margin-right: 910px;
+}
+
 /*footer
 ********/
 
@@ -62,23 +85,16 @@ footer
 {
 	margin: 10px;
 	padding:10px;
-	background: rgba(223,100,178,0.2);
+	background: rgba(125, 71, 22, 0.7);
 	text-align:center;
 }
 
-.lien
+/*.lien
 {
 	padding: 0px;
 	color: rgb(223,0,220);
 	margin:0px;
 }
-
-.contact
-{
-	padding:15px;
-	top:50px;
-	margin: 0px;
-	color: rgb(223,0,220);
-}
+*/
 
 
