@@ -5,7 +5,8 @@
 		src: url("../police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");*/
 }
 
-/*éléments principaux du site web*/
+/*éléments principaux du site web
+********************************/
 body
 {
 	background: url("../img/fond1.jpg") no-repeat fixed ;
@@ -34,7 +35,8 @@ li{
 	margin: auto;
 }
 
-/*navigation*/
+/*navigation
+*************/
 nav 
 {
 	text-align:center;
@@ -44,7 +46,8 @@ nav
 }
 
 
-/*coprs*/
+/*coprs
+*******/
 .new
 {
 	margin: 5px;
@@ -62,7 +65,8 @@ nav
 	
 }
 
-/*footer*/
+/*footer*
+*********/
 footer
 {
 	margin: 10px;

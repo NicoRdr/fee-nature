@@ -1,37 +1,30 @@
 /* Police d'écriture */
 @font-face
 {
-	/*font-family: "BLACKR-webfont";
-		src: url("police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");*/
+	font-family: "BLACKR-webfont";
+		src: url("../police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");
 }
+/*éléments principaux du site web
+*********************************/
 
-/*hearder Baniére*/
-.img
-{
-	background: url("../img/baniere_1.jpg");
-	display: block;
-	margin:10px;
-	padding:0px 140px 0px 140px;
-	opacity: 0.5;
-	
-}
 
-/*éléments principaux du site web*/
 body
 {
-	background: url("img/fond1.jpg") no-repeat fixed ;
+	background: url("../img/fond1.jpg") no-repeat fixed ;
 	background-size:cover;
 	font-family: BLACKR-webfont,arial,"The New Roman";
 	color:black;
 	font-size: 150%;
-	float: right;
-	position:right;
+	
 }
 a:hover
 {
 	color: red;
 	font-family: BLACKR-webfont, Arial,serif;
 }
+
+/*menu nav
+**********/
 
 ul
 {
@@ -46,7 +39,7 @@ li{
 	margin: auto;
 }
 
-/*navigation*/
+
 nav 
 {
 	text-align:center;
@@ -54,32 +47,17 @@ nav
 	padding: 0px;
 	margin:0px;
 }
+/*coprs et texte
+****************/
 
-
-/*coprs*/
-.new
+p , h1
 {
-	/*margin: 5px;*/
 	margin-left: 150px;
-	margin-right: 150px;
-	padding:5px;
-	border: 3px solid black;
-	border-radius: 20px 20px 5px 5px;
-	text-align: justify;
 	
 }
+/*footer
+********/
 
-.evem
-{
-	border: 3px solid black;
-	border-radius: 20px 20px 5px 5px;
-	margin-top: 10px;
-	margin-left: 150px;
-	margin-right: 150px;
-	
-}
-
-/*footer*/
 footer
 {
 	margin: 10px;
