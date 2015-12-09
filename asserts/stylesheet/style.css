@@ -26,9 +26,8 @@ body
 	background-size:cover;
 	/*font-family: BLACKR-webfont,arial,"The New Roman";*/
 	color:black;
-	font-size: 150%;
+	/*font-size: 150%;*/
 	float: right;
-	position:right;
 }
 a:hover
 {

@@ -1,26 +1,26 @@
 /* Police d'écriture */
-@font-face
+/*@font-face
 {
 	font-family: "BLACKR-webfont";
 		src: url("../police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");
-}
+}*/
 /*éléments principaux du site web
 *********************************/
 
 
 body
 {
-	background: url("../img/fond1.jpg") no-repeat fixed ;
+	/*background: url("../img/fond1.jpg") no-repeat fixed ;*/
 	background-size:cover;
-	font-family: BLACKR-webfont,arial,"The New Roman";
+	/*font-family: BLACKR-webfont,arial,"The New Roman";*/
 	color:black;
-	font-size: 150%;
+	/*font-size: 150%;*/
 	
 }
 a:hover
 {
 	color: red;
-	font-family: BLACKR-webfont, Arial,serif;
+	/*font-family: BLACKR-webfont, Arial,serif;*/
 }
 
 /*menu nav
