@@ -80,10 +80,11 @@ a
 .article
 {
 	/*margin: 5px;*/
+	margin-top: 10px;
 	margin-left: 200px;
 	margin-right: 200px;
 	padding:5px;
-	border: 3px solid black;
+	border: 2px solid black;
 	border-radius: 20px 20px 5px 5px;
 	text-align: justify;
 	
@@ -91,7 +92,7 @@ a
 
 .evem
 {
-	border: 3px solid black;
+	border: 2px solid black;
 	border-radius: 20px 20px 5px 5px;
 	margin-top: 10px;
 	margin-left: 200px;
