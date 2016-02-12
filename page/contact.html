@@ -23,38 +23,65 @@
 		</header>
 				
 				<article>
-				<h1>Fee-Nature</h1>
+				<!-- <h1>Fee-Nature</h1>
 				<p>Vous pouvez me contacter par mail pour plus d'information ou pour une commande</p>
-				<!-- <input type="name" placeholder="Votre Nom/Prénom"/>
+				<input type="name" placeholder="Votre Nom/Prénom"/>
 				<input type="email" placeholder="Votre Mail"/>
 				<input type="submit" placeholder="Entre"/>
 				</article> -->
 				
 			<div class="content"><!--Content formulaire-->
       <div id="form"><!--from-->
-              <form action="" id="contactForm" method="post">
+             <!--  <form action="" id="contactForm" method="post">
                  
                   <span class="list" id="lisname" >Name</span>
-                  <input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+                  <input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 /></br>
                 
                   <span class="lisname">Email</span>
-                  <input type="email" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+                  <input type="email" name="email" class="email" placeholder="Enter your email" tabindex=2 /></br>
                 
                   <span class="lisname">Web</span>
                   <input type="text" name="web" class="email" placeholder="Enter your Url" tabindex=2         
-                  pattern="^http:\/\/'.*)$" />
+                  pattern="^http:\/\/'.*)$" /></br>
 
                   <span class="list">Message</span>
                   <textarea class="message" placeholder="Enter your message" tabindex=4></textarea> </br>
 								
                   <input type="submit" name="submit" value="Send e-mail" class="submit" tabindex=5>
-              </form>
+              </form> -->
+
+              <div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Fee-Nature</h3>
+    <h4>Vous pouvez me contacter par mail pour plus d'information ou pour une commande</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
       </div><!-- fin de from-->        
       </div><!-- fin content formulaire-->
   </div>
 
 <footer>
-	<div>
+	<div id="create">
 		<!-- <a href="lien.html" class="lien">lien</a></li>  -->
 		© Copyright 2015
 		create Nicolas Rodrigues
