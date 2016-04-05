@@ -17,11 +17,14 @@ body
 	/*font-size: 150%;*/
 	
 }
+
+
 a:hover
 {
-	color: red;
+	color: #23AB0C;
 	/*font-family: BLACKR-webfont, Arial,serif;*/
 }
+
 
 /*menu nav
 **********/
@@ -48,6 +51,11 @@ nav
 	display:;
 	padding: 0px;
 	margin:0px;
+}
+
+a
+{
+	color: black;
 }
 
 /*.contact

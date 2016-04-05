@@ -14,11 +14,17 @@ body
 
 }
 
+a:hover
+{
+  color: #23AB0C;
+  /*font-family: BLACKR-webfont, Arial,serif;*/
+}
 
 
 
 
 
+  
 /*barre de nav
 ************/
 nav 
@@ -43,6 +49,10 @@ li
 	padding: 0px 10px 0px 10px;
 }
 
+a
+{
+  color: black;
+}
 /*.col
 {
   color: black;
@@ -189,8 +199,7 @@ li
   color:#F1F1F1;
   font: 14px/16px'Bree Serif', Georgia, serif;
   margin-left: 450px;*/
-}
-*/
+
 /* contact me 
 *************/
 
@@ -204,14 +213,13 @@ li
                                     
 /*   footer 
 ************/
-footer
+#footer
 {
-	/*margin: 10px;
-	padding:10px;*/
-	/*background: rgba(125, 71, 22, 0.7);
-	text-align:center;
-  margin-left: 550px;*/
   margin-left: 550px;
+  margin: 10px;
+  padding:10px;
+  background: rgba(125, 71, 22, 0.7);
+  text-align:center;
 
 }
 
@@ -220,12 +228,6 @@ footer
   margin-left: 520px;
 }
 
-/*#footer
-{
-  background-color: rgba(0, 0, 0, 0.35);
-  margin-right:px;
-  margin-left: px;
-}*/
 
 /*****************************************/
 

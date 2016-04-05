@@ -1,16 +1,8 @@
-/* Police d'écriture
-********************/
-@font-face
-{
-	/*font-family: "BLACKR-webfont";
-		src: url("police/web fonts/blackrose_regular_french/BLACKR-webfont.woff")format("woff");*/
-}
-
 /*hearder Baniére image
 ***********************/
 .img
 {
-	/*background: url("../img/baniere_1.jpg");*/
+	/*background: url("img/baniere_1.jpg");*/
 	display: block;
 	margin:10px;
 	padding:0px 140px 0px 140px;
@@ -22,9 +14,8 @@
 *********************************/
 body
 {
-	/*background: url("img/fond1.jpg") no-repeat fixed ;*/
+	background-image: url("rose_blache.png") no-repeat fixed ;
 	background-size:cover;
-	/*font-family: BLACKR-webfont,arial,"The New Roman";*/
 	color:black;
 	/*font-size: 150%;*/
 }
@@ -92,12 +83,16 @@ a
 
 .evem
 {
-	border: 2px solid black;
-	border-radius: 20px 20px 5px 5px;
+	
 	margin-top: 10px;
 	margin-left: 200px;
 	margin-right: 200px;
 	
+}
+
+.format
+{
+	margin-right: 80px;
 }
 
 /*footer
